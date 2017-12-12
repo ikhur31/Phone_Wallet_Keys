@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.averygrimes.phone_wallet_keys.Themes"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+    <Button
+        android:id="@+id/btn_UHCL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:background="?android:selectableItemBackground"
+        android:text="Blue | Green" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_UHCL"
+        android:layout_gravity="center_horizontal"
+        android:text="UHCL Theme"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#90909090" />
+
+
+    <Button
+        android:id="@+id/btn_Dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:selectableItemBackground"
+        android:text="Red | Black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Dark"
+        android:layout_gravity="center_horizontal"
+        android:text="Dark Theme"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#90909090" />
+
+    <Button
+        android:id="@+id/btn_Beach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Blue |Tan"
+        android:background="?android:selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Beach"
+        android:layout_gravity="center_horizontal"
+        android:text="Beach Theme"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#90909090" />
+
+    <Button
+        android:id="@+id/btn_Fall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Purple | purple"
+        android:background="?android:selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Fall"
+        android:layout_gravity="center_horizontal"
+        android:text="Purple Theme"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#90909090" />
+
+
+
+
+</LinearLayout>

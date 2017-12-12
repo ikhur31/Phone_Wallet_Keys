@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Device Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tt1"
+        android:layout_weight="25"/>
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tt2"
+        android:layout_weight="25"/>
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Time"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tt3"
+        android:layout_weight="25"/>
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Status"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tt4"
+        android:layout_weight="25"/>
+
+
+
+
+</LinearLayout>
